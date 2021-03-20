@@ -1,0 +1,42 @@
+$primary: #3671E9;
+$dark: #0D0D2B;
+$secondary: #2B076E;
+$light: #e0e0e0;
+$body-color: #828282;
+$body-bg: #F8F9FB;
+$min-contrast-ratio: 4.472;
+$btn-padding-x: 2rem;
+$btn-padding-y: 1rem;
+$btn-font-weight: 500;
+$btn-border-radius: 50rem;
+
+@import "~bootstrap/scss/bootstrap";
+@import "~@icon/icofont/icofont.css";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.bg-white-10 {
+  background-color: rgba($white, .1);
+}
+.fw-medium {
+  font-weight: 500 !important;
+}
+
+.header {
+  background: $dark url(../assets/images/header_bg.png) no-repeat center bottom;
+}
+
+.circle-block {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba($white, .1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  color: $primary;
+}
